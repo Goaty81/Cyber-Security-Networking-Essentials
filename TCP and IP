@@ -1,4 +1,4 @@
-<u>TCP/IP</u>
+<ins>TCP/IP</ins>
 
 Transmission control protocol (TCP) and Internet Protocol (IP) are sets of communication protocols which allow devices to connect and exchange data on a network.
 
@@ -6,7 +6,7 @@ Transmission control protocol (TCP) and Internet Protocol (IP) are sets of commu
 
   - Internet Protocol (IP) - Handles the addressing and routing of the packets making sure they get through the big wide cyber space and to its correct destination.
 
-</u>The Four layers of the TCP/IP model</u>
+<ins>The Four layers of the TCP/IP model</ins>
 
 First layer - Application layer - This layer is for human interaction for example:
   - Hyper text transfer protocol HTTPS (used for web browsing).
@@ -24,14 +24,14 @@ Third layer - Internet layer
 Fouth layer - Network layer - The Hardware layer
   -Ethernet, WiFi, and Address Resolution Protocols (ARP) work here to connect physical devices to the internet.
 
-</u>How TCP/IP works in cyber security</u>
+<ins>How TCP/IP works in cyber security</ins>
 
   - The three way handshake - SYN (synchronize), SYN-ACK, ACK (acknowledgment).
   - Data gets packetized - data gets broken down into smaller more tranferable packets.
   - Packets are routed - IP sends the packets through the router, internet and to its destination.
   - Packets Delivered - TCP reassembles the packets at the destination in the correct order.
 
-</u>Common Vulnerabilities and Exploits</u>
+<ins>Common Vulnerabilities and Exploits</ins>
 
   - IP Spoofing - An attacker will forge their IP to hide their own identity.
   - TCP Session Hijacking - A technique used to interupt and take over active network sessions.
@@ -39,7 +39,7 @@ Fouth layer - Network layer - The Hardware layer
   - Packet Sniffing - Tools like wireshark make it easy for attackers to capture sensitive packets of data.
   - DNS Poisoning - Manipulate Domain name servers to redirect users to fake/malicious websites.
 
-</u>Defending against attackers targetting TCP/IP</u>
+<ins>Defending against attackers targetting TCP/IP</ins>
 
   - Packet Inspection - Intruder detection system (IDS) and Intruder Prevention System (IPS) can analyze packets for malicious/suspicious behaviour before it gets into the network.
   - Firewalls - Use access control lists (ACLS) to filter traffic based on thier TCP/IP headers and ensure only trusted packets get through.
@@ -47,14 +47,14 @@ Fouth layer - Network layer - The Hardware layer
   - Transport Security - Protocols like Transport Layer Security (TLS) over HTTPS and Secure Shell (SSH) ensure secure communication.
   - Traffic logs and auditting - Monitor traffic flow for anomalies.
 
-</u> Must have tools for analyzing TCP/IP </u>
+<ins>Must have tools for analyzing TCP/IP</ins>
 
   - Wireshark - This is the Master of Packet Analyzing it has the ability to not only capture packets but provides deep inspection of them aswell.
   - TCPDump - Lightweight command-line option for monitoring traffic.
   - NMAP - short for Network mapping, The best network and port scanning for vulnerabilities.
   - NetCat - Used for Debugging and creating basic connections between systems.
 
-</u>Best practices for securing TCP/IP traffic</u>
+<ins>Best practices for securing TCP/IP traffic</ins>
 
   - Use encrypted protocols (like HTTPS and FTPS).
   - Disable unnecessary ports/services.
@@ -64,7 +64,7 @@ Fouth layer - Network layer - The Hardware layer
 
 Treat your network like its a home, you wouldnt leave your door ope for attackers so why leave your network open?
 
-</u>How TCP/IP powers the future of network security</u>
+<ins>How TCP/IP powers the future of network security</ins>
 
   - Zero trust architecture (ZTA) - Ensuring that every connection is verified, even internal ones which heavily relies on TCP/IP monitoring.
   - IPV6 and security enhancements - with its increased address space and modernization of features, IPV6 impacts everything from routing to firewall configurations.
