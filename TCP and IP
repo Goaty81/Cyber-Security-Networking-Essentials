@@ -1,0 +1,71 @@
+</u>TCP/IP</u>
+
+Transmission control protocol (TCP) and Internet Protocol (IP) are sets of communication protocols which allow devices to connect and exchange data on a network.
+
+  - Transmission control protocol (TCP) - Is responsible for ensuring data gets delivered accurately by breaking the data down into smaller more tranferrable packets and reassembling them at the destination in the         right order.
+
+  - Internet Protocol (IP) - Handles the addressing and routing of the packets making sure they get through the big wide cyber space and to its correct destination.
+
+</u>The Four layers of the TCP/IP model</u>
+
+First layer - Application layer - This layer is for human interaction for example:
+  - Hyper text transfer protocol HTTPS (used for web browsing).
+  - Domain name server DNS (translating Uniform resource location (URLS) to IP addresses).
+  - Simple mail transfer protocol SMTP (used for Emails).
+
+Second layer - Transport layer - This Handles the data delivery
+  - TCP - You would use this to tell you that the data has been recieved at its destination and in the correct sequence. (commonly used for Emails/Downloads).
+  - UDP Unit Datagram Protocol - This you would use if you send something over the internet however you dont really care if it gets there or not (Fire and Forget) and could also reach your intended target but in a       mixed order from which you sent it which in turn would make this faster for Gaming/Streaming.
+
+Third layer - Internet layer
+  - IP - Ensures data knows where to go (routing and adressing).
+  - ICMP Internet control message protocol - Vital for troubleshooting systems (Pinging and error checking).
+
+Fouth layer - Network layer - The Hardware layer
+  -Ethernet, WiFi, and Address Resolution Protocols (ARP) work here to connect physical devices to the internet.
+
+</u>How TCP/IP works in cyber security</u>
+
+  - The three way handshake - SYN (synchronize), SYN-ACK, ACK (acknowledgment).
+  - Data gets packetized - data gets broken down into smaller more tranferable packets.
+  - Packets are routed - IP sends the packets through the router, internet and to its destination.
+  - Packets Delivered - TCP reassembles the packets at the destination in the correct order.
+
+</u>Common Vulnerabilities and Exploits</u>
+
+  - IP Spoofing - An attacker will forge their IP to hide their own identity.
+  - TCP Session Hijacking - A technique used to interupt and take over active network sessions.
+  - SYN Flood and DDoS Attacks - Overwhelming the server and abusing the SYN handshake.
+  - Packet Sniffing - Tools like wireshark make it easy for attackers to capture sensitive packets of data.
+  - DNS Poisoning - Manipulate Domain name servers to redirect users to fake/malicious websites.
+
+</u>Defending against attackers targetting TCP/IP</u>
+
+  - Packet Inspection - Intruder detection system (IDS) and Intruder Prevention System (IPS) can analyze packets for malicious/suspicious behaviour before it gets into the network.
+  - Firewalls - Use access control lists (ACLS) to filter traffic based on thier TCP/IP headers and ensure only trusted packets get through.
+  - Secure tunneling - Virtual Private networks (VPNs) encrypt traffic to trusted networks and prevents attackers from seeing the contents.
+  - Transport Security - Protocols like Transport Layer Security (TLS) over HTTPS and Secure Shell (SSH) ensure secure communication.
+  - Traffic logs and auditting - Monitor traffic flow for anomalies.
+
+</u> Must have tools for analyzing TCP/IP </u>
+
+  - Wireshark - This is the Master of Packet Analyzing it has the ability to not only capture packets but provides deep inspection of them aswell.
+  - TCPDump - Lightweight command-line option for monitoring traffic.
+  - NMAP - short for Network mapping, The best network and port scanning for vulnerabilities.
+  - NetCat - Used for Debugging and creating basic connections between systems.
+
+</u>Best practices for securing TCP/IP traffic</u>
+
+  - Use encrypted protocols (like HTTPS and FTPS).
+  - Disable unnecessary ports/services.
+  - Implement traffic ingress and egress filtering to block spoofed traffic.
+  - Harden network devices like routers and switches.
+  - Continously monitor ports and TCP handshakes.
+
+Treat your network like its a home, you wouldnt leave your door ope for attackers so why leave your network open?
+
+</u>How TCP/IP powers the future of network security</u>
+
+  - Zero trust architecture (ZTA) - Ensuring that every connection is verified, even internal ones which heavily relies on TCP/IP monitoring.
+  - IPV6 and security enhancements - with its increased address space and modernization of features, IPV6 impacts everything from routing to firewall configurations.
+  - Cloud-native networking - moving to the cloud doesnt exempt you from TCP/IP. Instead it expands the scope on what needs securing.
