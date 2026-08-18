@@ -1,5 +1,5 @@
 <ins> TCP/IP </ins>
-
+<u>this</u>
 Transmission control protocol (TCP) and Internet Protocol (IP) are sets of communication protocols which allow devices to connect and exchange data on a network.
 
   - Transmission control protocol (TCP) - Is responsible for ensuring data gets delivered accurately by breaking the data down into smaller more tranferrable packets and reassembling them at the destination in the         right order.
