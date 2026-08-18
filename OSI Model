@@ -2,7 +2,7 @@
 
 First of all ide like to go back to the TCP/IP modle in my previous document.
 
-In the TCP/IP model theres 4 layers to it, Application, transport, network and physical.
+In the TCP/IP model theres 4 layers to it, Application, transport,internet and network.
 
 The OSI Model is exactly that model however it involves being more intricate in some areas, if you have a look at the picture below you will see both models:
 
