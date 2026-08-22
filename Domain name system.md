@@ -36,3 +36,5 @@ Authoritative servers hold the definitive records for a domain and respond to re
   - Root name servers - Root name servers are at the top of the DNS hierarchy and are responsible for serving the root zone (Central database for the DNS). There are 13 root nameservers "identities" or "authorities" (logical groupings of root servers) identified by letters A through to M. They answer queries for records sorted within the root zone and refer requests to the appropriate TLD name server.
 
   - Top-level domain (TLD) name servers - TLD servers are responsible for managing the next level of the hierarchy, including generic top-level domains (gTLDs). TLD name servers direct queries to the authoritative name servers for the specific domains within their TLD. so, the TLD name serve ".com" would direct domains ending in ".com", the TLD name server for ".gov" would direct domains ending in ".gov" and so on.
+
+  - Second level domain servers (SLD) - SLDs are directly below Top-level domains, for example in google.com, google is the second-level domain of the .com TLD. SLDs commonly refer to the organisation that is registered to the domain name registrar.
