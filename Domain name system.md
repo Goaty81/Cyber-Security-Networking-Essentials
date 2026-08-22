@@ -6,11 +6,11 @@ Think of a phone book but for the internet, you know the book that holds all the
 Domain name system (DNS) works exactly like that, However instead of phone numbers its IP addresses.
 
 What the DNS will do is match the Website address to the IP address!
-So say for instance i wanted to access www.google.co.uk what we normally do is type it into our search bar and it comes up, right?
+So say for instance i wanted to access www.google.co.uk what we normally do is type it into our browser search bar and it comes up, right?
 
 However what we don’t see is DNS working,
 
-What actually happen when you press enter is that our device will send a signal to the DNS asking for www.google.co.uk, it will look up google in its massive phone book and see that google has an IP address,
+What actually happens when you press enter is that our device will send a signal to the DNS asking for www.google.co.uk, it will look up google in its phone book and see that google has an IP address,
 Then it would match the name of the service (google) to the IP address then it will direct you to googles website.
 
 <ins>Types of DNS servers</ins>
@@ -25,6 +25,14 @@ There are two types of DNS servers, Recursive and Authoritative. Recursive is th
 
 <ins>Recursive DNS servers</ins>
 
-Recursive servers are typically managed by internet service providers ( ISPs) or third party DNS service providers. however a organisation can also provide it own server.
+Recursive servers are typically managed by internet service providers (ISPs) or third party DNS service providers. however a organisation can also provide it own server.
 Recursive servers act on behalf of the end user to resolve the domain name to the IP address it also stores a temporary cache of recent DNS lookups to improve the system efficiency.
 When a user types a web address into a web browser, the browser will connect to a recursive DNS server to resolve the request. Then the recursive server will queries the DNS hierarchy until it finds the DNS records containing  the IP address for the given domain.
+
+<ins>Authoritative servers</ins>
+
+Authoritative servers hold the definitive records for a domain and respond to requests about domain names stored within their respective zones. There are different servers that are each responsible for a distinct part of the namespace these are root name servers, Top-level domains (TLDs) and other name servers.
+
+  - Root name servers - Root name servers are at the top of the DNS hierarchy and are responsible for serving the root zone (Central database for the DNS). There are 13 root nameservers "identities" or "authorities" (logical groupings of root servers) identified by letters A through to M. They answer queries for records sorted within the root zone and refer requests to the appropriate TLD name server.
+
+  - Top-level domain (TLD) name servers - TLD servers are responsible for managing the next level of the hierarchy, including generic top-level domains (gTLDs). TLD name servers direct queries to the authoritative name servers for the specific domains within their TLD. so, the TLD name serve ".com" would direct domains ending in ".com", the TLD name server for ".gov" would direct domains ending in ".gov" and so on.
