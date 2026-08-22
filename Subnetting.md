@@ -1,8 +1,6 @@
 <ins>Subnetting</ins>
 
-In this document i will briefly discuss subnetting.
-
-A subnet is usually equivilant to one or more network segments connected to one router. Network segments are the physical connection and subnets or the logical connections.
+A subnet is usually equivalent to one or more network segments connected to one router. Network segments are the physical connection and subnets or the logical connections.
 
 Each subnet has its own IP address range and its connected to the internet via a router. Additionally, the router may have a firewall between network segments to filter and enforce security policies on the traffic that passes between them.
 
@@ -19,6 +17,20 @@ Class B - This will be shown as 255.255.0.0 or /16, Capable of having 65,534 hos
 
 Class C - The smallest class which will be shown as 255.255.255.0 or /24. This is capable of holding up to 254 hosts and is commonly used in homes or small businesses. The example above has two IPs with this attached.
 
-Subnets will allow you to communicate with each other isolated in your own subnet enviroment. For example if you would like to know if someone else in your subnet is online you would simply send a ARP Request to the subnet. 
+Subnets will allow you to communicate with each other isolated in your own subnet environment. For example if you would like to know if someone else in your subnet is online you would simply send a ARP Request to the subnet. 
 
-However if your target is out of your subnet you will have to use what we call "Active network scanning" which i will cover on another topic.
+Without subnets you will come into quite alot of problems like :
+
+  - All departments would have the same network
+  - Only 80 IP address could be used leaving 176 unused
+  - More chance of broadcast traffic flooding the network
+  - Devices from other departments can easily access each other
+
+With subnets you could:
+
+  - Divide the network into three smaller subnets
+  - Each department receives only the IP they need
+  - Traffic remains within each subnet, improving performance
+  - Departments are logically separated therefore improving security
+  - IP addresses are used efficiently therefore have room for growth
+
