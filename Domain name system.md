@@ -56,4 +56,5 @@ However what we don’t see is DNS working,
 
 What actually happens when you press enter is that our device will send a signal (DNS request) to the DNS recursive server asking for www.google.co.uk, the DNS recursive server will then query the Authoritative DNS servers to look up google in its phone book and see that google has an IP address, Then it would match the name of the service (google) to the IP address then it will direct you to googles website.
 
-<img> Images/DNS.avif </img>
+<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/3426b42a-8756-4d85-b667-80029102947b" />
+
