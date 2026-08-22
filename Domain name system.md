@@ -5,14 +5,6 @@ So first of all what is a Domain name system (DNS)?
 Think of a phone book but for the internet, you know the book that holds all the phone numbers of people?
 Domain name system (DNS) works exactly like that, However instead of phone numbers its IP addresses.
 
-What the DNS will do is match the Website address to the IP address!
-So say for instance i wanted to access www.google.co.uk what we normally do is type it into our browser search bar and it comes up, right?
-
-However what we don’t see is DNS working,
-
-What actually happens when you press enter is that our device will send a signal to the DNS asking for www.google.co.uk, it will look up google in its phone book and see that google has an IP address,
-Then it would match the name of the service (google) to the IP address then it will direct you to googles website.
-
 <ins>Types of DNS servers</ins>
 
 DNS was designed with a hierarchical, distributed database structure to had a more dynamic approach to domain name resolution. After all it would need to keep up with the ever expanding internet.
@@ -38,3 +30,29 @@ Authoritative servers hold the definitive records for a domain and respond to re
   - Top-level domain (TLD) name servers - TLD servers are responsible for managing the next level of the hierarchy, including generic top-level domains (gTLDs). TLD name servers direct queries to the authoritative name servers for the specific domains within their TLD. so, the TLD name serve ".com" would direct domains ending in ".com", the TLD name server for ".gov" would direct domains ending in ".gov" and so on.
 
   - Second level domain servers (SLD) - SLDs are directly below Top-level domains, for example in google.com, google is the second-level domain of the .com TLD. SLDs commonly refer to the organisation that is registered to the domain name registrar.
+
+<ins>DNS zone files and resource records</ins>
+
+So we have gone through the server types of the DNS servers, in addition to them the DNS uses zone files and several record types to help with the resolution process. Zone files are text-based that include mappings and information about specific domains within the DNS zone.
+
+Each line of a zone file specifies a DNS resource record. The resource records help ensure that when a user submits a query, the DNS can quickly convert domain names into actionable information that directs queries to the correct server.
+
+There are two mandatory records: name server (NS) records which indicates the authoritative name server for a domain and the start of authority (SOA) record which specifies the primary authoritative name server of the DNS server.
+
+Zone files include several other record types other than the two primary records which are:
+
+  - A and AAAA records - A records links the domain to IPv4 addresses while AAAA links the domain to IPv6 addresses.
+  - Mail exchanger records (MX record) - Specifies a SMTP email server for a domain.
+  - Canonical name records (CNAME records) - Redirect hostnames from an alias to another domain (the  "Canonical domain").
+  - Pointer records (PTR records) - Specifies a reverse DNS lookup process, mapping IP addresses back to domain names.
+  - Sender policy framework (SPF) records - Identifies the mail servers that have permission to send emails through a domain.
+  - Text records (TXT records) - Used for human-readable notes and automated processing, such as sender policy frameworks for email authentication.
+
+<ins>How DNS works</ins>
+
+So say for instance i wanted to access www.google.co.uk what we normally do is type it into our browser search bar and it comes up, right?
+
+However what we don’t see is DNS working,
+
+What actually happens when you press enter is that our device will send a signal (DNS request) to the DNS recursive server asking for www.google.co.uk, the DNS recursive server will then query the Authoritative DNS servers to look up google in its phone book and see that google has an IP address, Then it would match the name of the service (google) to the IP address then it will direct you to googles website.
+
