@@ -1,3 +1,5 @@
+<ins>Subnetting</ins>
+
 In this document i will briefly discuss subnetting.
 
 A subnet is usually equivilant to one or more network segments connected to one router. Network segments are the physical connection and subnets or the logical connections.
