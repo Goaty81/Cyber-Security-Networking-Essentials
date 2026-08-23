@@ -6,7 +6,7 @@ Each subnet has its own IP address range and its connected to the internet via a
 
 Below is a Example of a subnet split into two network segments:
 
-<img https://github.com/Goaty81/Nmap-network-mapper-/blob/c550cdafb180189c6b872eb22d9cd77a214cc253/Images%20/Subnet.jpg />
+<img> https://github.com/Goaty81/Nmap-network-mapper-/blob/c550cdafb180189c6b872eb22d9cd77a214cc253/Images%20/Subnet.jpg </img>
 
 
 There are three different types of subnet classes:
