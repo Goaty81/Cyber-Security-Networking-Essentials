@@ -11,7 +11,7 @@ DNS was designed with a hierarchical, distributed database structure to had a mo
 The hierarchy starts at the root level denoted by a dot (.) for example: www.google.com the dot for the DNS would be the dot before for com and then branches out the the top level domains (TLDs),
 Such as ".com", ".net" and ".org" or Country code top level domains (ccTLDs) such as ".uk", ".jp" and ".au".
 
-</ins> DNS architectures<ins>
+<ins> DNS architectures</ins>
 
 There are two types of DNS servers, Recursive and Authoritative. Recursive is the one doing the searching (asking), it searches for the information that connects the user to the website. Authoritative servers provide the "answers".
 
