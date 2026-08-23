@@ -24,6 +24,8 @@ Third layer - Internet layer
 Fouth layer - Network layer - The Hardware layer
   -Ethernet, WiFi, and Address Resolution Protocols (ARP) work here to connect physical devices to the internet.
 
+  <img width="600" height="624" alt="image" src="https://github.com/user-attachments/assets/1046eb98-4260-402d-805b-70d78129477b" />
+
 <ins>How TCP/IP works in cyber security</ins>
 
   - The three way handshake - SYN (synchronize), SYN-ACK, ACK (acknowledgment).
