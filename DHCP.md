@@ -17,6 +17,9 @@ Here is the breakdown of that process:
 3. Request: Your device asks the DHCP server to use that IP address.
 4. Acknowledgement: The server says yes and locks that IP address to that device.
 
+<img width="338" height="276" alt="image" src="https://github.com/user-attachments/assets/4919142a-037d-430b-9228-aa759bce8776" />
+
+
 Quite impressive stuff right?
 
 <ins>Primary Components of DHCP</ins>
@@ -47,3 +50,5 @@ To enable effective deployment of DHCP a few best practices are to be considered
   - Avoid putting DHCP on your domain controller - This will prevent your Domain controller from being overwhelmed with requests and prevents those connecting to your Wi-Fi as guests from having access to your domain controller which will keep your attack surface small, especially is those that wish to cause harm to you network access your guest Wi-Fi then at least there is still barriers to get passed after the to reach the domain controller.
   - Use DHCP failover - If one server goes down, to make sure the network is still available it is best to have a secondary server (failover server).
   - Avoid using static IP addresses where possible - using static IP make it easier for the attacker to scan the IP because it never changes, using DHCP will allow the IP address to be continuously changed making it harder for the attacker to scan it.
+
+<img width="921" height="472" alt="image" src="https://github.com/user-attachments/assets/b46401b3-70bb-4f18-bd79-f0ad4bd6994d" />
