@@ -16,10 +16,9 @@ We divide the host address apart through what we call Subnets (i have a document
 
 IPv4 addresses are 32-bits long, expressed through 4 decimal numbers separated by periods which is called an Octet.
 
-Example of a Octet
+<img width="738" height="387" alt="image" src="https://github.com/user-attachments/assets/80b20ec5-80ce-40c2-b2c1-f4b441a82ab5" />
 
 Each of the octets can range from 0 to 255 which gives 4.3billion unique addresses.
 
 The way IPv4 forwards data is through routers, when a device in the network sends data to another device it first of all has to be broken down into smaller packets, each containing the sources and destinations address.
 Routers will examine the destinations IP address and uses its routing table to determine the appropriate path to send the packets of data. Then the packets are forwarded to the destination router which then the logical mechanics of the OSI table goes in reverse! (from layer 1 through 7)
-
