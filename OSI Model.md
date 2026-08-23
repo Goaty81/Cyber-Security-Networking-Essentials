@@ -6,7 +6,7 @@ In the TCP/IP model theres 4 layers to it, Application, transport,network and ph
 
 The OSI Model is exactly that model however it involves being more intricate in some areas, if you have a look at the picture below you will see both models:
 
-(Image of OSI and TCP/IP models)
+<img width="649" height="372" alt="image" src="https://github.com/user-attachments/assets/65ddc674-4e75-4750-926d-fa499bf55ef5" />
 
 You can see that the TCP/IP model is a much simpler version of the OSI model, however they are both models of communication.
 
@@ -48,3 +48,5 @@ It deals with some of the Network equipment that is able to transmit bits of dat
   - Wireless Signals
   - Hardware Specs
   - Basic devices in the network - Hubs, repeaters and basic Network interface cards NICs
+
+
