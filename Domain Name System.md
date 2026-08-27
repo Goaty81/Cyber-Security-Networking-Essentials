@@ -1,6 +1,6 @@
 <ins>Domain name system</ins>
 
-So first of all what is a Domain name system (DNS)?
+So first of all what is a Domain Name System (DNS)?
 
 Think of a phone book but for the internet, you know the book that holds all the phone numbers of people?
 Domain name system (DNS) works exactly like that, However instead of phone numbers its IP addresses.
@@ -23,7 +23,7 @@ When a user types a web address into a web browser, the browser will connect to 
 
 <ins>Authoritative servers</ins>
 
-Authoritative servers hold the definitive records for a domain and respond to requests about domain names stored within their respective zones. There are different servers that are each responsible for a distinct part of the namespace these are root name servers, Top-level domains (TLDs) and other name servers.
+Authoritative servers hold the definitive records for a domain and respond to requests about domain names stored within their respective zones. There are different servers that are each responsible for a distinct part of the namespace these are root name servers, Top-level Domains (TLDs) and other name servers.
 
   - Root name servers - Root name servers are at the top of the DNS hierarchy and are responsible for serving the root zone (Central database for the DNS). There are 13 root nameservers "identities" or "authorities" (logical groupings of root servers) identified by letters A through to M. They answer queries for records sorted within the root zone and refer requests to the appropriate TLD name server.
 
